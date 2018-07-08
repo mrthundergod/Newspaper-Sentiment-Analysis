@@ -2,11 +2,7 @@ import lxml, urllib.request
 from bs4 import BeautifulSoup as bs
 from textblob import TextBlob
 from PageScraper import *
-from main import *
 from NewsSentimentAnalysis import *
-
-
-  
 
 
 if __name__=='__main__':
@@ -15,7 +11,7 @@ if __name__=='__main__':
 
 	check = input("Enter the number: ")
 	mainUrl = 'https://www.thehindu.com/news/national/?page='
-	
+	sentValue=[]
 	for x in range(1,3):
 		newsPaper={}
 		url = urlMaker(mainUrl, x)
@@ -25,9 +21,13 @@ if __name__=='__main__':
 		if check=='1':
 			seeNews(titles,links)
 		elif check=='2':
-			sentimentAnalysis(newsPaper, titles, lists)
+			sentimentAnalysis(newsPaper, titles, links)
 		else:
-			avgSentiment(titles,stories)
+			avgSentVal = avgSentiment(newsPaper, titles, links)
+			sentValue.append(avgSentVal)
+	if check== '3':
+		avgSentiment = find_Sentiment(sum(sentValue))
+		print("Average Sentiment now is : "+ avgSentiment+'. ('+str(sum(sentValue))+')')
 
 
     
