@@ -41,7 +41,7 @@ python3 main.py
 ## Future updates
 
 1. Add GUI
-2. Add option to select from National, Internation, and District-wise News.
+2. Add option to select from National, International, and District-wise News.
 
 
 ## Thanks!
