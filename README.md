@@ -18,5 +18,4 @@ Check prerequisites.txt for details, or run the following command:
             
 ``` 
 pip install -r prerequisites.txt
-
 ```
