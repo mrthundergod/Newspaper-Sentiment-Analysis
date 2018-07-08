@@ -1,5 +1,5 @@
 from textblob import TextBlob
-from PageScraper import *
+from pageScraper import *
 
 def find_Sentiment(val):
     if val<=0.1 and val>-0.1:

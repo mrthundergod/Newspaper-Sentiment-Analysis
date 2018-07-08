@@ -1,4 +1,0 @@
-pygame
-textblob
-bs4
-numpy

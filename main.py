@@ -1,8 +1,8 @@
 import lxml, urllib.request
 from bs4 import BeautifulSoup as bs
 from textblob import TextBlob
-from PageScraper import *
-from NewsSentimentAnalysis import *
+from pageScraper import *
+from sentAnalysis import *
 
 
 if __name__=='__main__':
