@@ -19,3 +19,21 @@ Check prerequisites.txt for details, or run the following command:
 ``` 
 pip install -r prerequisites.txt
 ```
+or 
+````
+pip3 install -r prerequisites.txt
+````
+### Running
+
+Run the ```` main.py```` file using python
+
+OR
+
+Run this in Command Prompt (CMD)/ Terminal
+````
+python main.py
+````
+or
+````
+python3 main.py
+````
