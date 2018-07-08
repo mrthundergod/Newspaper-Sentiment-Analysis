@@ -37,3 +37,12 @@ or
 ````
 python3 main.py
 ````
+
+### Future updates
+
+1. Add GUI
+2. Add option to select from National, Internation, and District-wise News.
+
+### Thanks!
+
+Let me know of more updates you'd like to see and also if you see bugs!
