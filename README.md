@@ -38,7 +38,7 @@ or
 python3 main.py
 ````
 ## Changelog
-* Update to Version 1.0
+* Updated to Version 1.0
 
 ## Future updates
 
