@@ -23,7 +23,7 @@ or
 ````
 pip3 install -r prerequisites.txt
 ````
-### Running
+## Deployment
 
 Run the ```` main.py```` file using python
 
