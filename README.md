@@ -25,25 +25,25 @@ pip3 install -r prerequisites.txt
 ````
 ## Deployment
 
-Run the ```` main.py```` file using python
+Run the ```` mainv2.py```` file using python
 
 OR
 
 Run this in Command Prompt (CMD)/ Terminal
 ````
-python main.py
+python mainv2.py
 ````
 or
 ````
-python3 main.py
+python3 mainv2.py
 ````
 ## Changelog
+* Added main to select from National, International, Science, Business and District-wise News.
 * Updated to Version 1.0
 
 ## Future updates
 
 1. Add GUI
-2. Add option to select from National, International, and District-wise News.
 
 
 ## Thanks!
