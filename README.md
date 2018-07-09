@@ -38,7 +38,7 @@ or
 python3 mainv2.py
 ````
 ## Changelog
-* Added main to select from National, International, Science, Business and District-wise News.
+* Added main menu to select from National, International, Science, Business and District-wise News.
 * Updated to Version 1.0
 
 ## Future updates
