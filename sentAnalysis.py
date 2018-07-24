@@ -1,16 +1,8 @@
-from textblob import TextBlob
-from pageScraper import *
+from textblob import TextBlob                                                   # the module that runs sentiment analysis             
+from pageScraper import *                                                       # import all functions from pageScraper
 
-def find_Sentiment(val):
-    if val<=0.1 and val>-0.1:
-        return 'Neutral'
-    elif val>0.1:
-        return 'Positive'
-    else:
-        return 'Negative'
-
-def newsAnalysis(dataDiX):
-    sent = []
+def newsAnalysis(dataDiX):                                                      # take the { title:story } dictionary and runs sentiment
+    sent = []                                                                   # analysis on it and returns 
     sentVal = []
     for news in list(dataDiX.values()):
       analysis = TextBlob(news)
@@ -19,6 +11,14 @@ def newsAnalysis(dataDiX):
       sentVal.append(qq)
       sent.append(sentiment)
     return sent, sentVal
+
+def find_Sentiment(val):                                                                                                               
+    if val<=0.1 and val>-0.1:
+        return 'Neutral'
+    elif val>0.1:
+        return 'Positive'
+    else:
+        return 'Negative'
 
 def listMaker(newsPaper, titles, sent, sentVal, lists):
   totalSent = 0
