@@ -1,5 +1,5 @@
-import lxml, urllib.request
-from bs4 import BeautifulSoup as bs
+import lxml, urllib.request                                                 # lxml is a library for parsing, urllib is to open the page
+from bs4 import BeautifulSoup as bs                                         # bs4 helps decode and search through page.
 
 def urlMaker(mainUrl,x):                                                    # For making individual page URLS
   url = mainUrl + str(x)
