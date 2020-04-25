@@ -1,4 +1,4 @@
-# Newspaper-Sentiment-Analysis [Needs Updation]
+# Newspaper-Sentiment-Analysis [Not Actively Maintained]
 
 Program which scrapes the News from 'The Hindu' Newspaper, and presents 3 options to the user.
 
